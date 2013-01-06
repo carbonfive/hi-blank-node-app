@@ -1,0 +1,14 @@
+doctype 5
+html
+  head
+    title= appName
+
+    script!= javascript  // set express-expose javascript variables
+
+    !=css('style')
+
+    script(type='text/javascript', src='/socket.io/socket.io.js')
+    !=js('application')
+
+  body
+    block content

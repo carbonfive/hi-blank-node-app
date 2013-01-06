@@ -1,0 +1,49 @@
+{
+  "name": "my-node-app",
+  "author": "me",
+  "description": "your gonna love this app",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:my-username/my-node-app.git"
+  },
+  "keywords": [
+    "something-cool",
+    "for-my-app",
+    "can-be-put-here"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node index",
+    "test":  "cake spec"
+  },
+  "dependencies": {
+    "coffee-script": "*",
+    "express": "3.x",
+    "express-expose": "*",
+    "connect-assets": "*",
+    "cookie-sessions": "*",
+    "socket.io": "*",
+    "stylus": "*",
+    "jade": "*",
+    "json2": "*",
+    "async": "*",
+    "oauth": "*",
+    "mongoskin": "*",
+    "redis-url": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "chai-http": "*",
+    "chai-spies": "*",
+    "sinon-chai": "*",
+    "chai-factories":"*",
+    "charlatan": "*",
+    "phantom": "git://github.com/sebv/phantomjs-node.git"
+   },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }  
+}

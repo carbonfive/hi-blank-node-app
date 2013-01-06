@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+  error = error || null
+  h1.app Hello #{appName}
+  if error
+    h1 Error
+    p= JSON.stringify(error)
+
